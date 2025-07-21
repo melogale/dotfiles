@@ -1,0 +1,51 @@
+/* Everforest Dark Hard */
+
+@define-color bg_dim #1E2326;
+@define-color bg0 #272E33;
+@define-color bg1 #2E383C;
+@define-color bg2 #374145;
+@define-color bg3 #414B50;
+@define-color bg4 #495156;
+@define-color bg5 #4F5B58;
+@define-color bg_red #4C3743;
+@define-color bg_visual #493B40;
+@define-color bg_yellow #45443C;
+@define-color bg_green #3C4841;
+@define-color bg_blue #384B55;
+
+@define-color red #E67E80;
+@define-color orange #E69785;
+@define-color yellow #DBBC7F;
+@define-color green #A7C080;
+@define-color blue #7FBBB3;
+@define-color aqua #83C092;
+@define-color purple #D699B6;
+@define-color fg #D3C6AA;
+@define-color statusline1 #A7C080;
+@define-color statusline2 #E67E80;
+@define-color statusline3 #E67E80;
+@define-color gray0 #7A8478;
+@define-color gray1 #859289;
+@define-color gray2 #9DA9A0;
+
+@define-color color-a #94DBC5;
+@define-color color-b #95BF74;
+@define-color color-c #659B5E;
+@define-color color-d #556F44;
+@define-color color-e #283F38;
+
+@define-color color-a-hover #47C29B;
+@define-color color-b-hover #7FB257;
+@define-color color-c-hover #537E4E;
+@define-color color-d-hover #3A4C2F;
+@define-color color-e-hover #588981;
+
+@define-color color-a #94DBC5;
+@define-color color-b #95BF74;
+@define-color color-c #659B5E;
+@define-color color-d #556F44;
+@define-color color-e #283F38;
+
+@define-color color-a-text #536953;
+@define-color color-b-text #695958;
+@define-color color-c-text #3b4a46;
