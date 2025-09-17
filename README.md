@@ -1,1 +1,1 @@
-Hi these are my dotfiles :3
+Hi these are my dotfiles for arch :3
