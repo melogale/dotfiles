@@ -34,18 +34,18 @@
 @define-color color-d #556F44;
 @define-color color-e #283F38;
 
-@define-color color-a-hover #47C29B;
-@define-color color-b-hover #7FB257;
-@define-color color-c-hover #537E4E;
-@define-color color-d-hover #3A4C2F;
-@define-color color-e-hover #588981;
+@define-color color-a-hover #be7642;
+@define-color color-b-hover #ad7e33;
+@define-color color-c-hover #ad7a40;
+@define-color color-d-hover #9c6a32;
+@define-color color-e-hover #a14633;
 
-@define-color color-a #94DBC5;
-@define-color color-b #95BF74;
-@define-color color-c #659B5E;
-@define-color color-d #556F44;
-@define-color color-e #283F38;
+@define-color color-a #ff9d57;
+@define-color color-b #db9f3e;
+@define-color color-c #e5a256;
+@define-color color-d #ffa844;
+@define-color color-e #ff7458;
 
-@define-color color-a-text #536953;
-@define-color color-b-text #695958;
-@define-color color-c-text #3b4a46;
+@define-color color-a-text #323232;
+@define-color color-b-text #2a2a2a;
+@define-color color-c-text #434343;

@@ -1,0 +1,52 @@
+@import url("file:///home/melo/.config/common/colors.css");
+
+window {
+  margin: 0px;
+  background-color: @bg0;
+  width: 500px;
+  height: 500px;
+  font-family: Agave;
+}
+
+#input {
+  color: @aqua;
+  background-color: @bg5;
+}
+
+#input:focus {
+  border: 1px solid @aqua;
+}
+
+#scroll {
+  color: @green;
+}
+
+#inner-box {
+  border-radius: 10px;
+}
+
+#outer-box {
+
+}
+
+#entry {
+  color: @green;
+}
+
+#entry:nth-child(even) {
+  background-color: @bg1;
+  color: @blue;
+}
+
+#entry:selected {
+  color: @green;
+  background-color: @bg_blue;
+}
+
+#text {
+  
+}
+
+#text:selected {
+  
+}
