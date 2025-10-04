@@ -1,0 +1,6 @@
+[mgr]
+show_hidden = true
+[open]
+prepend_rules = [
+	{ name = "*.avi", use = "vlc" },
+]

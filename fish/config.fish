@@ -3,5 +3,9 @@ if status is-interactive
 end
 set fish_greeting ""
 function fish_prompt
-    string join '' -- '[' (set_color red) (whoami) (set_color normal) '@' (set_color yellow) (prompt_hostname) (set_color normal) ':' (set_color cyan) (prompt_pwd) (set_color normal) ']$ '
+    string join '' -- '[' (set_color green) (whoami) (set_color normal) '@' (set_color blue) (prompt_hostname) (set_color normal) ':' (set_color cyan) (prompt_pwd) (set_color normal) ']$ '
+end
+
+if test -f ~/.cache/wal/colors.fish
+    source ~/.cache/wal/colors.fish
 end
