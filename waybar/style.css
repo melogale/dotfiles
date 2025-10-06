@@ -40,7 +40,7 @@ button:hover {
 #workspaces button {
     padding: 0 5px;
     background-color: transparent;
-    color: #ffffff;
+    color: #666666;
 }
 
 #workspaces button:hover {
@@ -54,6 +54,10 @@ button:hover {
 
 #workspaces button.urgent {
     background-color: #eb4d4b;
+}
+
+#workspaces button.hosting-monitor {
+    color: #ffffff;
 }
 
 #mode {
