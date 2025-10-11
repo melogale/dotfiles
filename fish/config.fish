@@ -6,6 +6,11 @@ function fish_prompt
     string join '' -- '[' (set_color green) (whoami) (set_color normal) '@' (set_color blue) (prompt_hostname) (set_color normal) ':' (set_color cyan) (prompt_pwd) (set_color normal) ']$ '
 end
 
-if test -f ~/.cache/wal/colors.fish
-    source ~/.cache/wal/colors.fish
+if status is-interactive
+    if test -f ~/.cache/wal/colors.fish
+        source ~/.cache/wal/colors.fish
+    end
+    if test -f ~/.cache/wal/sequences
+        cat ~/.cache/wal/sequences
+    end
 end
