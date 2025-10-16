@@ -14,7 +14,7 @@
         "max-length": 40,
         "format-icons": {
             "spotify": "",
-            "default": "🎜"
+            "default": ""
         },
         "escape": true,
         "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
@@ -40,6 +40,7 @@
         "on-click": "pavucontrol"
     },
     "clock": {
-        "format-alt": "{:%a, %d. %b  %H:%M}"
+        "format": " {:%H:%M}",
+        "format-alt": " {:%a, %d. %b  %H:%M}"
     }
 }
