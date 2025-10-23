@@ -40,7 +40,7 @@
         "on-click": "pavucontrol"
     },
     "clock": {
-        "format": " {:%H:%M}",
-        "format-alt": " {:%a, %d. %b  %H:%M}"
+        "format": " {:%I:%M}",
+        "format-alt": " {:%a, %d. %b  %I:%M}"
     }
 }
