@@ -1,7 +1,7 @@
 @import url("file:///home/melo/.cache/wal/colors-waybar.css");
 
 * {
-    font-family: Agave;
+    font-family: "Agave Nerd Font", monospace;
     font-size: 13px;
     margin: 0px;
     padding: 0px;
@@ -88,13 +88,8 @@ button:hover {
     padding: 1px 10px 1px 10px;
     margin: 0px 8px 0px 8px;
     border-radius: 15px;
+    background-color: alpha(@background, 0.75);
 }
-
-.modules-right > widget:last-child > #workspaces {
-    margin-right: 0;
-}
-
-
 
 @keyframes blink {
     to {
@@ -104,21 +99,18 @@ button:hover {
 }
 
 #custom-media {
-    background-color: alpha(@background, 0.75);
     color: @color5;
 }
 
 #pulseaudio {
-    background-color: alpha(@background, 0.75);
     color: @color1;
 }
 
-#pulseaudio:hover {
-    background-color: alpha(@background, 0.75);
+#battery {
+    color: @color12;
 }
 
 #clock {
-    background-color: alpha(@background, 0.75);
     color: @color3;
 }
 
