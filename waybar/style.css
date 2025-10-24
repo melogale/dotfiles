@@ -114,3 +114,6 @@ button:hover {
     color: @color3;
 }
 
+#network {
+    color: @color13;
+}
