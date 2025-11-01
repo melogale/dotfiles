@@ -4,4 +4,3 @@ pywalfox update
 pkill -SIGUSR2 waybar
 pkill hyprpaper
 hyprpaper & disown
-echo "$1" > ~/test.txt
