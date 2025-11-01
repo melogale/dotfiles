@@ -1,7 +1,7 @@
 @import url("file:///home/melo/.cache/wal/colors-waybar.css");
 
 * {
-    font-family: "Agave Nerd Font", monospace;
+    font-family: Agave, "Symbols Nerd Font Mono", monospace;
     font-size: 13px;
     margin: 0px;
     padding: 0px;
@@ -116,4 +116,8 @@ button:hover {
 
 #network {
     color: @color13;
+}
+
+#custom-power {
+    color: @color14;
 }

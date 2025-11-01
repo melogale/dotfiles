@@ -1,7 +1,7 @@
 {
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["custom/media","network", "power-profiles-daemon","battery#bat0", "battery#bat1", "pulseaudio", "clock"],
+    "modules-right": ["custom/media","network", "power-profiles-daemon","battery#bat0", "battery#bat1", "pulseaudio", "clock", "custom/power"],
     "hyprland/workspaces": {
         "all-outputs": true
     },
@@ -31,14 +31,14 @@
     "pulseaudio": {
         "format": "{volume}% {icon} {format_source}",
         "format-bluetooth": "{volume}% {icon} {format_source}",
-        "format-bluetooth-muted": " {icon} {format_source}",
-        "format-muted": " {format_source}",
+        "format-bluetooth-muted": "󰂲 {icon} {format_source}",
+        "format-muted": "󰝟 {format_source}",
         "format-source": " {volume}% ",
         "format-source-muted": "",
         "format-icons": {
             "headphone": "",
-            "hands-free": "",
-            "headset": "",
+            "hands-free": "󰋎",
+            "headset": "󰋎",
             "phone": "",
             "portable": "",
             "car": "",
@@ -58,7 +58,7 @@
         },
         "format": "{capacity}% {icon} ",
         "format-full": "{capacity}% {icon} ",
-        "format-charging": "{capacity}%  ",
+        "format-charging": "{capacity}% 󰂄 ",
         "format-plugged": "{capacity}%  ",
         "format-alt": "{time} {icon} ",
         "format-icons": ["", "", "", "", ""]
@@ -86,5 +86,17 @@
         "balanced": "",
         "power-saver": ""
       }
+    },
+    "custom/power": {
+        "format" : "⏻ ",
+    		"tooltip": false,
+    		"menu": "on-click",
+    		"menu-file": "$HOME/.config/waybar/power_menu.xml",
+    		"menu-actions": {
+    			"shutdown": "shutdown now",
+    			"reboot": "reboot",
+    			"suspend": "systemctl suspend",
+    			"hibernate": "systemctl hibernate"
+    		}
     }
 }
