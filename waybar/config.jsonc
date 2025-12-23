@@ -1,7 +1,7 @@
 {
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["custom/media", "pulseaudio", "clock"],
+    "modules-right": ["network#vpn", "custom/media", "pulseaudio", "clock"],
     "hyprland/workspaces": {
         "all-outputs": true
     },
@@ -17,11 +17,9 @@
             "default": ""
         },
         "escape": true,
-        "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
-        // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
+        "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null"
     },
     "pulseaudio": {
-        // "scroll-step": 1, // %, can be a float
         "format": "{volume}% {icon} {format_source}",
         "format-bluetooth": "{volume}% {icon} {format_source}",
         "format-bluetooth-muted": " {icon} {format_source}",
@@ -41,6 +39,14 @@
     },
     "clock": {
         "format": " {:%I:%M}",
-        "format-alt": " {:%a, %d. %b  %I:%M}"
+        "tooltip-format": "  {:%a, %d. %b  %I:%M}"
+    },
+    "network#vpn": {
+        "interface": "proton0",
+        "format": "󰖂 {ipaddr}",
+        "format-disconnected": "",
+        "tooltip-format": "interface: {ifname}\nip: {ipaddr}",
+        "ignore-operstate": true,
+        "interval": 5
     }
 }

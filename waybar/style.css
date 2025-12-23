@@ -122,3 +122,8 @@ button:hover {
     color: @color3;
 }
 
+#network.vpn {
+    background-color: alpha(@background, 0.75);
+    color: @color4;
+}
+

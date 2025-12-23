@@ -1,7 +1,7 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
-set fish_greeting "Hello:"
+set fish_greeting ""
 
 function fish_prompt
     string join '' \
