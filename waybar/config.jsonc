@@ -1,6 +1,6 @@
 {
-    "modules-left": ["hyprland/workspaces"],
-    "modules-center": ["hyprland/window"],
+    "modules-left": ["hyprland/workspaces", "hyprland/window"],
+    "modules-center": [ ],
     "modules-right": ["custom/media","network", "power-profiles-daemon","battery#bat0", "battery#bat1", "pulseaudio", "clock", "custom/power"],
     "hyprland/workspaces": {
         "all-outputs": true
